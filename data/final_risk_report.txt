@@ -1,0 +1,12 @@
+FINANCIAL NETWORK RISK REPORT
+==============================
+Network Density: 0.3333
+
+TOP SYSTEMIC NODES (Highest Influence):
+- AAPL: 0.5000
+- MSFT: 0.5000
+- NVDA: 0.5000
+
+CONCLUSION:
+High density detected. The financial system is vulnerable to a domino effect.
+A crisis in one company could spread through shared institutional ownership.
