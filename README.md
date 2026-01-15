@@ -4,8 +4,8 @@ A professional-grade Python tool for quantifying institutional interdependencies
 
 ## 📊 Project Preview
 <p align="center">
-  <img src="dashboard_preview.PNG" width="48%" alt="Dashboard Analysis" />
-  <img src="network_animation.GIF" width="48%" alt="Interactive Network Animation" />
+  <img src="dashboard_preview.png" width="48%" alt="Dashboard Analysis" />
+  <img src="network_animation.gif" width="48%" alt="Interactive Network Animation" />
 </p>
 
 ## 🚀 Key Features
