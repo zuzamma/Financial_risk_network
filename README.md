@@ -1,18 +1,43 @@
 # 🛡️ Systemic Financial Risk Network Analysis
+**An advanced quantitative tool for mapping institutional interdependencies and simulating financial contagion.**
 
-A professional-grade Python tool for quantifying institutional interdependencies and systemic risk.
+---
 
 ## 📊 Project Preview
-![Dashboard](dashboard_preview.png)
-![Network Animation](network_animation.gif)
+| 📈 Executive Dashboard | 🕸️ Interactive Risk Network |
+| :---: | :---: |
+| ![Dashboard](dashboard_preview.png) | ![Network Animation](network_animation.gif) |
+| *Real-time market metrics & risk scoring* | *Dynamic physics-based institutional mapping* |
+
+---
+
+## 💡 Overview
+This project addresses the complexity of modern financial markets by quantifying **systemic risk**. By analyzing the ownership structures of major technology assets (e.g., AAPL, NVDA, MSFT), the system identifies "Too Interconnected to Fail" nodes and simulates how a localized shock can trigger a domino effect across the global financial network.
 
 ## 🚀 Key Features
-- **Automated Data Pipeline**: SQL-based storage for ownership data.
-- **Network Theory Analysis**: Market density and systemic node identification.
-- **Stress-Test Simulation**: Models the "Domino Effect" in tech assets.
+* **📡 Automated Data Acquisition**: Seamless integration with `yFinance` to fetch real-time institutional holders and market prices.
+* **🗄️ Robust Data Architecture**: Custom SQL-based storage (SQLite) optimized for relational ownership mapping.
+* **🔬 Network Theory Engine**: 
+    * Calculation of **Clustering Coefficients** and **Network Density**.
+    * Identification of bridge nodes (Institutional Investors) connecting diverse assets.
+* **🧪 Crisis Simulation (Stress-Test)**: A dedicated module to model the "Domino Effect" – visualizing the propagation of financial distress.
+* **🎨 Premium Reporting**: Automated generation of dark-themed HTML dashboards and interactive graph visualizations.
 
 ## 🛠️ Tech Stack
-- Python, Pandas, SQLite3, Plotly, PyVis.
+| Category | Tools |
+| :--- | :--- |
+| **Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
+| **Data Science** | `Pandas`, `NumPy`, `yFinance` |
+| **Database** | `SQLite3` |
+| **Visualization** | `Plotly`, `PyVis (Physics-based Graphs)`, `HTML/CSS` |
 
-## 📬 Contact
-**Zuzanna Klimaszewska**
+## 📈 Analysis Workflow
+1.  **Extraction**: Pulling institutional ownership data for high-cap technology tickers.
+2.  **Transformation**: Mapping many-to-many relationships between investors and assets.
+3.  **Analytics**: Running centrality algorithms to find high-risk nodes.
+4.  **Visualization**: Rendering the interactive map and executive dashboard.
+
+## ⚙️ Installation & Usage
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/zuzamma/Financial_risk_network.git](https://github.com/zuzamma/Financial_risk_network.git)
