@@ -4,10 +4,11 @@
 ---
 
 ## 📊 Project Preview
-| 📈 Executive Dashboard | 🕸️ Interactive Risk Network |
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/1b451932-706c-4fa9-b20d-8242a918231b" width="400" /> | <img src="https://github.com/user-attachments/assets/a89defb6-db4c-4d55-bf5c-4514349b0d51" width="400" /> |
-| *Real-time market metrics & risk scoring* | *Dynamic physics-based institutional mapping* |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b451932-706c-4fa9-b20d-8242a918231b" width="100%" alt="Executive Dashboard" />
+  <br>
+  <em>Real-time market metrics & risk scoring dashboard</em>
+</p>
 
 ---
 
@@ -29,13 +30,7 @@ This project addresses the complexity of modern financial markets by quantifying
 | **Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
 | **Data Science** | `Pandas`, `NumPy`, `yFinance` |
 | **Database** | `SQLite3` |
-| **Visualization** | `Plotly`, `PyVis (Physics-based Graphs)`, `HTML/CSS` |
-
-## 📈 Analysis Workflow
-1.  **Extraction**: Pulling institutional ownership data for high-cap technology tickers.
-2.  **Transformation**: Mapping many-to-many relationships between investors and assets.
-3.  **Analytics**: Running centrality algorithms to find high-risk nodes.
-4.  **Visualization**: Rendering the interactive map and executive dashboard.
+| **Visualization** | `Plotly`, `PyVis`, `HTML/CSS` |
 
 ## ⚙️ Installation & Usage
 1. **Clone the repository**:
