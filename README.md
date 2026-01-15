@@ -6,7 +6,7 @@
 ## 📊 Project Preview
 | 📈 Executive Dashboard | 🕸️ Interactive Risk Network |
 | :---: | :---: |
-| ![Dashboard](dashboard_preview.png) | ![Network Animation](network_animation.gif) |
+| <img src="https://github.com/user-attachments/assets/1b451932-706c-4fa9-b20d-8242a918231b" width="400" /> | <img src="https://github.com/user-attachments/assets/a89defb6-db4c-4d55-bf5c-4514349b0d51" width="400" /> |
 | *Real-time market metrics & risk scoring* | *Dynamic physics-based institutional mapping* |
 
 ---
