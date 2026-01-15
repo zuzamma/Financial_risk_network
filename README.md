@@ -3,7 +3,8 @@
 A professional-grade Python tool for quantifying institutional interdependencies and systemic risk.
 
 ## 📊 Project Preview
-![Uploading network_an![dashboard_preview](https://github.com/user-attachments/assets/8cefb3ef-e0eb-4824-9c72-f19dbf0e7074)imation.gif…]()
+
+<img width="2204" height="2428" alt="dashboard_preview" src="https://github.com/user-attachments/assets/1b451932-706c-4fa9-b20d-8242a918231b" />
 
 
 ## 🚀 Key Features
