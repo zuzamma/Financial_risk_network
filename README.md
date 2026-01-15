@@ -32,6 +32,12 @@ This project addresses the complexity of modern financial markets by quantifying
 | **Database** | `SQLite3` |
 | **Visualization** | `Plotly`, `PyVis`, `HTML/CSS` |
 
+## 📈 Analysis Workflow
+1.  **Extraction**: Pulling institutional ownership data for high-cap technology tickers.
+2.  **Transformation**: Mapping many-to-many relationships between investors and assets.
+3.  **Analytics**: Running centrality algorithms to find high-risk nodes.
+4.  **Visualization**: Rendering the interactive map and executive dashboard.
+
 ## ⚙️ Installation & Usage
 1. **Clone the repository**:
    ```bash
