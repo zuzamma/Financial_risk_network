@@ -1,7 +1,6 @@
 import os
 
 def create_aesthetic_presentation():
-    # CSS & HTML with professional English terminology
     html_content = """
     <!DOCTYPE html>
     <html lang="en">
@@ -150,14 +149,12 @@ def create_aesthetic_presentation():
     </html>
     """
     
-    # Save the file
     file_path = "data/project_story.html"
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(html_content)
     
     print(f"✨ Professional English presentation generated: {file_path}")
     
-    # Auto-open in Safari
     os.system(f"open {file_path}")
 
 if __name__ == "__main__":
