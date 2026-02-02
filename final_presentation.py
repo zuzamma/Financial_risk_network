@@ -8,11 +8,10 @@ def create_premium_analytics():
     df = pd.read_sql_query("SELECT company, investor FROM ownership", conn)
     conn.close()
 
-    # Data Processing: Top 8 Institutional Holders
+
     top_investors = df['investor'].value_counts().head(8).reset_index()
     top_investors.columns = ['Investor', 'Count']
 
-    # POPRAWKA: Dodano "None" w specs, aby zamknąć strukturę siatki 2x2
     fig = make_subplots(
         rows=2, cols=2,
         specs=[[{"type": "indicator"}, {"type": "indicator"}],
@@ -20,7 +19,6 @@ def create_premium_analytics():
         vertical_spacing=0.25
     )
 
-    # Metric 1: Network Connectivity
     fig.add_trace(go.Indicator(
         mode="number",
         value=len(df),
@@ -28,7 +26,6 @@ def create_premium_analytics():
         number={'font': {'color': '#00d4ff', 'size': 55, 'family': 'Inter'}},
     ), row=1, col=1)
 
-    # Metric 2: Asset Coverage
     fig.add_trace(go.Indicator(
         mode="number",
         value=len(df['company'].unique()),
@@ -36,7 +33,6 @@ def create_premium_analytics():
         number={'font': {'color': '#ffaa00', 'size': 55, 'family': 'Inter'}},
     ), row=1, col=2)
 
-    # Chart: Institutional Dominance
     fig.add_trace(go.Bar(
         x=top_investors['Investor'],
         y=top_investors['Count'],
@@ -48,7 +44,6 @@ def create_premium_analytics():
         hovertemplate="<b>%{x}</b><br>Holdings: %{y}<extra></extra>"
     ), row=2, col=1)
 
-    # Professional Dark Theme Styling
     fig.update_layout(
         template="plotly_dark",
         paper_bgcolor="#0b101a",
