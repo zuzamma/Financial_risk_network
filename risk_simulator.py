@@ -14,8 +14,7 @@ def run_stress_test(target_company):
     if target_company not in G:
         print(f"❌ Error: {target_company} not found.")
         return
-
-    # Symulacja efektu domina
+        
     investors = list(G.neighbors(target_company))
     exposed_companies = set()
     for inv in investors:
@@ -24,11 +23,9 @@ def run_stress_test(target_company):
             if sibling_co != target_company and len(sibling_co) <= 5:
                 exposed_companies.add(sibling_co)
 
-    # Obliczanie wskaźnika systemowego
     total_market_firms = len([n for n in G.nodes() if len(n) <= 5])
     risk_pct = len(exposed_companies) / (total_market_firms - 1) if total_market_firms > 1 else 0
 
-    # Wydruk w stylu profesjonalnego terminala
     print("\n" + "═"*50)
     print(f" ⚠️  SYSTEMIC STRESS TEST: CRISIS AT {target_company} ".center(50, "═"))
     print("═"*50)
