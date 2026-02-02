@@ -5,7 +5,6 @@ import os
 
 class FinancialDB:
     def __init__(self, db_name="data/financial_network.db"): # DODANO "data/"
-        # Sprawdzamy czy folder data istnieje, jeśli nie - tworzymy go
         if not os.path.exists('data'):
             os.makedirs('data')
             
